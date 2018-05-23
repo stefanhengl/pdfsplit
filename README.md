@@ -2,17 +2,14 @@
 
 # pdfsplit
 
-A Clojure library that splits a pdf into single pages
+A Clojure library that splits (multi-page) PDFs into single pages.
 
 ## Usage
 
-    (:require [pdfsplit.core :refer [split]])
+`split` splits a pdf, saves the individual pages to disk, and
+ returns a lazy sequence of the file-names (string)
 
-    (split "path/to/file.pdf")
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```clojure
+(:require [pdfsplit.core :refer [split]])
+(split "path/to/file.pdf")
+```
