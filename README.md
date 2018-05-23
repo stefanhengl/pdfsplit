@@ -1,5 +1,5 @@
 [![Clojars Project](https://img.shields.io/clojars/v/pdfsplit.svg)](https://clojars.org/pdfsplit)
-
+[![Build Status](https://travis-ci.com/stefanhengl/pdfsplit.svg?branch=master)](https://travis-ci.com/stefanhengl/pdfsplit)
 # pdfsplit
 
 A Clojure library that splits (multi-page) PDFs into single pages.
