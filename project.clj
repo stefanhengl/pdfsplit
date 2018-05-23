@@ -1,6 +1,7 @@
 (defproject pdfsplit "0.3.0-SNAPSHOT"
   :description "A Clojure library that splits (multi-page) PDFs into single pages."
   :url "https://github.com/stefanhengl/pdfsplit"
+  :scm {:name "git" :url "https://github.com/stefanhengl/pdfsplit" }
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
   :dependencies [
