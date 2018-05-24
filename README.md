@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/stefanhengl/pdfsplit.svg?branch=master)](https://travis-ci.com/stefanhengl/pdfsplit)
 # pdfsplit
 
-A Clojure library that splits and merges (multi-page) PDFs.
+A Clojure library that splits and merges PDFs.
 
 ## Installation
 
