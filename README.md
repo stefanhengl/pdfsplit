@@ -18,6 +18,9 @@ A Clojure library that splits and merges (multi-page) PDFs.
 (split "path/to/file.pdf")
 ```
 
+Given a multi-page pdf "file.pdf", the indiviudal pages are saved next to "file.pdf"
+as file_\<page\>.pdf, with \<page\> starting at 0.
+
 ### Merge
 `merge-pdfs` merges arbitraily many source PDFs into one target PDF
 ```clojure
