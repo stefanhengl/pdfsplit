@@ -1,4 +1,4 @@
-(ns pdfsplit.core
+(ns pdfsplit.split
   (:import [org.apache.pdfbox.pdmodel PDDocument]
            [org.apache.pdfbox.multipdf Splitter]))
 
